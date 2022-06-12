@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad1fe5bb-27c1-4d94-abb9-08a26f02055e" name="Changes" comment="Проверка палиндрома">
+    <list default="true" id="ad1fe5bb-27c1-4d94-abb9-08a26f02055e" name="Changes" comment="Количество уникальный чисел в массиве">
       <change afterPath="$PROJECT_DIR$/src/Task03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655040982490</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Количество уникальный чисел в массиве">
+      <created>1655063686561</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655063686561</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +128,7 @@
     <MESSAGE value="Настройка" />
     <MESSAGE value="Программа сумм из 2-х чисел в массиве" />
     <MESSAGE value="Проверка палиндрома" />
-    <option name="LAST_COMMIT_MESSAGE" value="Проверка палиндрома" />
+    <MESSAGE value="Количество уникальный чисел в массиве" />
+    <option name="LAST_COMMIT_MESSAGE" value="Количество уникальный чисел в массиве" />
   </component>
 </project>

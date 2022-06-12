@@ -3,10 +3,10 @@ public class Task05 {
         int[] mas = new int[]{0, 0, 1, 1, 2, 5, 3, 4};
         int target = mas.length;
         int sum = 0;
-        for (int ma : mas) {
+        for (int i = 0; i < mas.length; i++) {
             ++sum;
             for (int j = sum; j < mas.length; j++) {
-                if (ma == mas[j]) --target;
+                if (mas[i] == mas[j]) --target;
             }
         }
         System.out.println(" оличество уникальных чисел в массиве = " + target);
