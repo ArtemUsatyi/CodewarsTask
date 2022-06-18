@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad1fe5bb-27c1-4d94-abb9-08a26f02055e" name="Changes" comment="Количество уникальный чисел в массиве">
+    <list default="true" id="ad1fe5bb-27c1-4d94-abb9-08a26f02055e" name="Changes" comment="Вычислить самый длинный префикс из 3-х чисел">
       <change afterPath="$PROJECT_DIR$/src/Task03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +30,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Task05">
+}</component>
+  <component name="RunManager" selected="Application.Task03">
     <configuration name="Task01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task01" />
       <module name="Task" />
@@ -57,6 +58,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task04" />
+      <module name="Task" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task05" />
       <module name="Task" />
@@ -66,10 +74,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task05" />
         <item itemvalue="Application.Task03" />
-        <item itemvalue="Application.Task02" />
+        <item itemvalue="Application.Task04" />
         <item itemvalue="Application.Task01" />
+        <item itemvalue="Application.Task05" />
+        <item itemvalue="Application.Task02" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655063686561</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Количество уникальный чисел в массиве - мой вариант">
+      <created>1655063884711</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655063884711</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Вычислить самый длинный префикс из 3-х чисел">
+      <created>1655566861156</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655566861156</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +152,8 @@
     <MESSAGE value="Программа сумм из 2-х чисел в массиве" />
     <MESSAGE value="Проверка палиндрома" />
     <MESSAGE value="Количество уникальный чисел в массиве" />
-    <option name="LAST_COMMIT_MESSAGE" value="Количество уникальный чисел в массиве" />
+    <MESSAGE value="Количество уникальный чисел в массиве - мой вариант" />
+    <MESSAGE value="Вычислить самый длинный префикс из 3-х чисел" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вычислить самый длинный префикс из 3-х чисел" />
   </component>
 </project>
