@@ -5,6 +5,5 @@ public class Task06 {
         String text = mas[mas.length-1];
         int tex = text.length();
         System.out.println(tex);
-
     }
 }
