@@ -6,7 +6,7 @@ public class Task04 {
        int prefix = 0;
        int j = 0;
        int a;
-       String [] str = new String[] {"flower","flower","flower"};
+       String [] str = new String[] {"flower","flo","flower"};
        a = Math.min(str[0].length(), str[1].length());
        a = Math.min(a, str[2].length());
        for(int i=0; i<a; i++)
