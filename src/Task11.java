@@ -41,7 +41,7 @@ public class Task11 {
 class CustomEquals {
     void customEquals(String s1, String s3) {
         System.out.println("Method - equals");
-        System.out.println("Ñomparison STR 's1' and  STR 's2' : " + s1.equals(s3));
+        System.out.println("Comparison STR 's1' and  STR 's2' : " + s1.equals(s3));
     }
 }
 
