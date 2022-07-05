@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad1fe5bb-27c1-4d94-abb9-08a26f02055e" name="Changes" comment="Проверка для отправки">
-      <change afterPath="$PROJECT_DIR$/src/Task08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task10.java" afterDir="false" />
+    <list default="true" id="ad1fe5bb-27c1-4d94-abb9-08a26f02055e" name="Changes" comment="латиница проверка">
+      <change afterPath="$PROJECT_DIR$/src/Task11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,23 +45,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
-  <component name="RunManager" selected="Application.Task08">
-    <configuration name="Game (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Game" />
-      <module name="Task" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Game" />
+}]]></component>
+  <component name="RunManager" selected="Application.Task11">
+    <configuration name="Task03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task03" />
       <module name="Task" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,13 +91,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task11" />
+      <module name="Task" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task11" />
+        <item itemvalue="Application.Task04" />
+        <item itemvalue="Application.Task03" />
         <item itemvalue="Application.Task08" />
         <item itemvalue="Application.Task07" />
-        <item itemvalue="Application.Game (1)" />
-        <item itemvalue="Application.Game" />
-        <item itemvalue="Application.Task04" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656245098825</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="латиница проверка">
+      <created>1656246111969</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1656246111970</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +245,7 @@
     <MESSAGE value="Вывести длину последнего слова." />
     <MESSAGE value="Проверка" />
     <MESSAGE value="Проверка для отправки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Проверка для отправки" />
+    <MESSAGE value="латиница проверка" />
+    <option name="LAST_COMMIT_MESSAGE" value="латиница проверка" />
   </component>
 </project>
