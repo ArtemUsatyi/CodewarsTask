@@ -166,7 +166,7 @@ public class StreamApi {
 
         System.out.println("-----------");
         System.out.println("Поиск данных filter() и findAny() или findFirst():");
-        List<Integer> numbersNew = asList(1, 2, 3, 4, 5, 60, 71, 8, 9, 10);
+        List<Integer> numbersNew = asList(1, 2, 3, 4, 5);
         Optional<Integer> optionalNum = numbersNew.stream()
                 .filter(i -> i > 4)
                 .findAny();
@@ -188,8 +188,8 @@ public class StreamApi {
 
         System.out.println("-----------");
         System.out.println("Stream-ы могут иметь различные модификаторы состояния, рассмотрим след distinct, sorted, parallel, sequential:");
-        List<String> srt = asList("a", "b", "c", "d", "a", "c");
-        srt.stream()
+        List<String> str = asList("aaaa", "bbb", "c", "ddddddd", "aaaa", "cc");
+        str.stream()
                 .distinct()
                 .forEach(i -> System.out.println(i));
         // distinct - находит и возвращает только уникальные значения, остальные он отбрасывает
@@ -199,6 +199,47 @@ public class StreamApi {
         listCar.stream()
                 .sorted(Comparator.comparing(CarForStreamApi::getName).reversed())
                 .forEach(i -> System.out.println(i.getName()));
-        System.out.println();
+
+        System.out.println("-----------");
+        System.out.println("Сумма всех чисел в массиве(потоке, списке) reduce():");
+        Optional<Integer> sumNumber = numbersNew.stream()
+                .reduce((left, right) -> left + right);
+        System.out.println(sumNumber);
+
+        int summNumber = numbersNew.stream()
+                //(10*(left+right))
+                .reduce(100, (left, right) -> right + left);
+        System.out.println("Сумма = " + summNumber);
+
+        int sumIdentityNumber = numbersNew.stream()
+                .reduce(2, (identity, val) -> identity * val);
+        System.out.println("Произведение всех значений: " + sumIdentityNumber);
+
+        int minValue = numbersNew.stream()
+                .reduce(Integer.MAX_VALUE, (left, right) -> left < right ? left : right);
+        //.reduce(Integer.MAX_VALUE, Integer::min);
+        System.out.println("Найти минимальное значение: " + minValue);
+
+        int maxValue = numbersNew.stream()
+                .reduce(Integer.MIN_VALUE, Integer::max);
+        System.out.println("Найти минимальное значение: " + maxValue);
+
+        String strLightMax = str.stream()
+                .reduce("", (left, right) -> left.length() > right.length() ? left : right);
+        System.out.println("Найти самую длинную строку: " + strLightMax);
+
+        String strLightMin = str.stream()
+                .reduce(" ", (left, right) -> left.length() < right.length() ? left : right);
+        System.out.println("Найти самую длинную строку: " + strLightMin);
+
+        System.out.println("-----------");
+        System.out.println("Лимит (limit) по выбору элементов и пропустить определенное кол-во элементов (Skip)");
+        str.stream()
+                .limit(2)
+                .forEach(elem -> System.out.println("Вывести только 2 элемента - " + elem));
+
+        str.stream()
+                .skip(2)
+                .forEach(elem -> System.out.println("Прописутить 2 элемента, остальное вывести - " + elem));
     }
 }
