@@ -9,13 +9,13 @@ public class StreamApi {
     public static void main(String[] args) {
         List<Integer> numbers = asList(1, 4, 12, 0, 6, 123, 3);
 
-        System.out.println("Промежуточная операция - filter()");
+        System.out.println("РџСЂРѕРјРµР¶СѓС‚РѕС‡РЅР°СЏ РѕРїРµСЂР°С†РёСЏ - filter()");
         numbers.stream()
                 .filter(i -> i % 2 == 0)
-                .forEach(i -> System.out.println("Четные числа " + i));
+                .forEach(i -> System.out.println("Р§РµС‚РЅС‹Рµ С‡РёСЃР»Р° " + i));
 
         System.out.println("-----------");
-        System.out.println("Промежуточная операция - map()");
+        System.out.println("РџСЂРѕРјРµР¶СѓС‚РѕС‡РЅР°СЏ РѕРїРµСЂР°С†РёСЏ - map()");
         numbers.stream()
                 .map(i -> i * 2)
                 .collect(Collectors.toList())
@@ -28,27 +28,27 @@ public class StreamApi {
                 .filter(i -> i.length() > 4)
                 .count();
         System.out.println("-----------");
-        System.out.println("Терминальная операция - count()");
-        System.out.println("Общее количество имен в списке, где длина букв в именах равняется больше 4: " + count);
+        System.out.println("РўРµСЂРјРёРЅР°Р»СЊРЅР°СЏ РѕРїРµСЂР°С†РёСЏ - count()");
+        System.out.println("РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РёРјРµРЅ РІ СЃРїРёСЃРєРµ, РіРґРµ РґР»РёРЅР° Р±СѓРєРІ РІ РёРјРµРЅР°С… СЂР°РІРЅСЏРµС‚СЃСЏ Р±РѕР»СЊС€Рµ 4: " + count);
 
 
         System.out.println("-----------");
-        System.out.println("Терминальная операция - forEach()");
-        System.out.println("Проверка на наличие пустых слов и Null(nonNull), а также выборка слов по символам 'a':");
+        System.out.println("РўРµСЂРјРёРЅР°Р»СЊРЅР°СЏ РѕРїРµСЂР°С†РёСЏ - forEach()");
+        System.out.println("РџСЂРѕРІРµСЂРєР° РЅР° РЅР°Р»РёС‡РёРµ РїСѓСЃС‚С‹С… СЃР»РѕРІ Рё Null(nonNull), Р° С‚Р°РєР¶Рµ РІС‹Р±РѕСЂРєР° СЃР»РѕРІ РїРѕ СЃРёРјРІРѕР»Р°Рј 'a':");
         listName.stream()
                 .filter(Objects::nonNull)
                 .filter(name -> !name.isEmpty() && name.contains("a"))
                 .forEach(System.out::println);
 
-        System.out.println("Терминальная операция - map(), сделать первые буквы заглавные:");
+        System.out.println("РўРµСЂРјРёРЅР°Р»СЊРЅР°СЏ РѕРїРµСЂР°С†РёСЏ - map(), СЃРґРµР»Р°С‚СЊ РїРµСЂРІС‹Рµ Р±СѓРєРІС‹ Р·Р°РіР»Р°РІРЅС‹Рµ:");
         listName.stream()
                 .filter(Objects::nonNull)
                 .map(x -> x.substring(0, 1).toUpperCase() + x.substring(1))
-                .sorted()   // сортировка элементов (по числам по возрастани, слова в алфавитном порядке)
+                .sorted()   // СЃРѕСЂС‚РёСЂРѕРІРєР° СЌР»РµРјРµРЅС‚РѕРІ (РїРѕ С‡РёСЃР»Р°Рј РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРё, СЃР»РѕРІР° РІ Р°Р»С„Р°РІРёС‚РЅРѕРј РїРѕСЂСЏРґРєРµ)
                 .forEach(System.out::println);
 
         System.out.println("-----------");
-        System.out.println("Терминальная операция - map() и сортировка по именам sorted():");
+        System.out.println("РўРµСЂРјРёРЅР°Р»СЊРЅР°СЏ РѕРїРµСЂР°С†РёСЏ - map() Рё СЃРѕСЂС‚РёСЂРѕРІРєР° РїРѕ РёРјРµРЅР°Рј sorted():");
 
         List<CarForStreamApi> listCar = new ArrayList<>();
         listCar.add(new CarForStreamApi(1999, "Ford"));
@@ -61,7 +61,7 @@ public class StreamApi {
                 .forEach(System.out::println);
 
         System.out.println("-----------");
-        System.out.println("Терминальная операция - collect() и filter() по количеству букв в слове:");
+        System.out.println("РўРµСЂРјРёРЅР°Р»СЊРЅР°СЏ РѕРїРµСЂР°С†РёСЏ - collect() Рё filter() РїРѕ РєРѕР»РёС‡РµСЃС‚РІСѓ Р±СѓРєРІ РІ СЃР»РѕРІРµ:");
 
         List<String> names = new ArrayList<>();
         names.add("Tom");
@@ -75,7 +75,7 @@ public class StreamApi {
         System.out.println(newName);
 
         System.out.println("-----------");
-        System.out.println("Терминальная операция - collect() в сочетании с groupingBy():");
+        System.out.println("РўРµСЂРјРёРЅР°Р»СЊРЅР°СЏ РѕРїРµСЂР°С†РёСЏ - collect() РІ СЃРѕС‡РµС‚Р°РЅРёРё СЃ groupingBy():");
 
         List<HumanForStreamApi> humanList = new ArrayList<>();
         humanList.add(new HumanForStreamApi(10, "Putin", "Russia"));
@@ -88,7 +88,7 @@ public class StreamApi {
         Map<String, List<HumanForStreamApi>> mapList = humanList.stream()
                 .collect(Collectors.groupingBy(elem -> elem.getSurname()));
         System.out.println(mapList);
-//      Внизу альтернативный варинт без использования Stream Api:
+//      Р’РЅРёР·Сѓ Р°Р»СЊС‚РµСЂРЅР°С‚РёРІРЅС‹Р№ РІР°СЂРёРЅС‚ Р±РµР· РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Stream Api:
 //      Map<String, List<HumanForStreamApi>> mapList = new HashMap<>();
 //        for (HumanForStreamApi human : humanList) {
 //            if (!mapList.containsKey(human.getSurname())) {
@@ -103,25 +103,25 @@ public class StreamApi {
 //        System.out.println(mapList);
 
         System.out.println("-----------");
-        System.out.println("Терминальная операция - collect() в сочетании с groupingBy() и counting() возвращает тип LONG:");
+        System.out.println("РўРµСЂРјРёРЅР°Р»СЊРЅР°СЏ РѕРїРµСЂР°С†РёСЏ - collect() РІ СЃРѕС‡РµС‚Р°РЅРёРё СЃ groupingBy() Рё counting() РІРѕР·РІСЂР°С‰Р°РµС‚ С‚РёРї LONG:");
         Map<String, Long> mapCountFriend = humanList.stream()
                 .collect(Collectors.groupingBy(HumanForStreamApi::getSurname, Collectors.counting()));
         System.out.println(mapCountFriend);
 
         System.out.println("-----------");
-        System.out.println("Терминальная операция - collect() в сочетании с property + sum:");
+        System.out.println("РўРµСЂРјРёРЅР°Р»СЊРЅР°СЏ РѕРїРµСЂР°С†РёСЏ - collect() РІ СЃРѕС‡РµС‚Р°РЅРёРё СЃ property + sum:");
         Map<String, Long> mapSumFriend = humanList.stream()
                 .collect(Collectors.groupingBy(HumanForStreamApi::getSurname, Collectors.summingLong(HumanForStreamApi::getCountFriend)));
         System.out.println(mapSumFriend);
 
         System.out.println("-----------");
-        System.out.println("Терминальная операция - collect() в сочетании с mapping():");
+        System.out.println("РўРµСЂРјРёРЅР°Р»СЊРЅР°СЏ РѕРїРµСЂР°С†РёСЏ - collect() РІ СЃРѕС‡РµС‚Р°РЅРёРё СЃ mapping():");
         Map<String, Set<String>> mapName = humanList.stream()
                 .collect(Collectors.groupingBy(HumanForStreamApi::getSurname, Collectors.mapping(HumanForStreamApi::getName, Collectors.toSet())));
         System.out.println(mapName);
 
         System.out.println("-----------");
-        System.out.println("Терминальная операция - collect() в сочетании с flatMap():");
+        System.out.println("РўРµСЂРјРёРЅР°Р»СЊРЅР°СЏ РѕРїРµСЂР°С†РёСЏ - collect() РІ СЃРѕС‡РµС‚Р°РЅРёРё СЃ flatMap():");
 
         List<HumanPetsStreamApi> humanPets = new ArrayList<>();
 
@@ -136,7 +136,7 @@ public class StreamApi {
         List<String> allPets = humanPets.stream()
                 .map(human -> human.getPets())
                 .flatMap(pet -> pet.stream())
-                //.flatMap(human -> human.getPets().stream())  ИЛИ МОЖНО ВМЕСТО 2-х строк использовать ОДНУ
+                //.flatMap(human -> human.getPets().stream())  РР›Р РњРћР–РќРћ Р’РњР•РЎРўРћ 2-С… СЃС‚СЂРѕРє РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РћР”РќРЈ
                 .collect(Collectors.toList());
         System.out.println(allPets);
 
@@ -147,7 +147,7 @@ public class StreamApi {
 //        System.out.println(allPets);
 
         System.out.println("-----------");
-        System.out.println("Терминальная операция - collect() в сочетании с flatMapToInt() преобразование двумерного в одномерный массив:");
+        System.out.println("РўРµСЂРјРёРЅР°Р»СЊРЅР°СЏ РѕРїРµСЂР°С†РёСЏ - collect() РІ СЃРѕС‡РµС‚Р°РЅРёРё СЃ flatMapToInt() РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ РґРІСѓРјРµСЂРЅРѕРіРѕ РІ РѕРґРЅРѕРјРµСЂРЅС‹Р№ РјР°СЃСЃРёРІ:");
         int[][] array = {{1, 2}, {3, 4}};
         int[] arrayOne = Arrays.stream(array)
                 .flatMapToInt(i -> Arrays.stream(i))
@@ -155,17 +155,17 @@ public class StreamApi {
         System.out.println(Arrays.toString(arrayOne));
 
         System.out.println("-----------");
-        System.out.println("Поиск данных filter() и findAny() или findFirst():");
+        System.out.println("РџРѕРёСЃРє РґР°РЅРЅС‹С… filter() Рё findAny() РёР»Рё findFirst():");
         List<String> string = asList("Java", "super Java", "Java 8", "I like Java", "I love");
-//        Для обычных Stream-ов (последовательных) при нескольких запусках результат будет один и тот же.
-//        Для параллельных (parallelStream) же - всегда разный
+//        Р”Р»СЏ РѕР±С‹С‡РЅС‹С… Stream-РѕРІ (РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅС‹С…) РїСЂРё РЅРµСЃРєРѕР»СЊРєРёС… Р·Р°РїСѓСЃРєР°С… СЂРµР·СѓР»СЊС‚Р°С‚ Р±СѓРґРµС‚ РѕРґРёРЅ Рё С‚РѕС‚ Р¶Рµ.
+//        Р”Р»СЏ РїР°СЂР°Р»Р»РµР»СЊРЅС‹С… (parallelStream) Р¶Рµ - РІСЃРµРіРґР° СЂР°Р·РЅС‹Р№
         Optional<String> optional = string.parallelStream()
                 .filter(s -> s.contains("Java"))
                 .findAny();
         System.out.println(optional);
 
         System.out.println("-----------");
-        System.out.println("Поиск данных filter() и findAny() или findFirst():");
+        System.out.println("РџРѕРёСЃРє РґР°РЅРЅС‹С… filter() Рё findAny() РёР»Рё findFirst():");
         List<Integer> numbersNew = asList(1, 2, 3, 4, 5, 60, 71, 8, 9, 10);
         Optional<Integer> optionalNum = numbersNew.stream()
                 .filter(i -> i > 4)
@@ -173,7 +173,7 @@ public class StreamApi {
         System.out.println(optionalNum);
 
         System.out.println("-----------");
-        System.out.println("Поиск данных filter() и anyMatch(), allMatch(), noneMatch():");
+        System.out.println("РџРѕРёСЃРє РґР°РЅРЅС‹С… filter() Рё anyMatch(), allMatch(), noneMatch():");
         boolean anyMatch = numbers.stream()
                 .anyMatch(num -> num % 2 == 0);
         System.out.println("AnyMatch - " + anyMatch);
@@ -187,18 +187,18 @@ public class StreamApi {
         System.out.println("noneMatch - " + noneMatch);
 
         System.out.println("-----------");
-        System.out.println("Stream-ы могут иметь различные модификаторы состояния, рассмотрим след distinct, sorted, parallel, sequential:");
+        System.out.println("Stream-С‹ РјРѕРіСѓС‚ РёРјРµС‚СЊ СЂР°Р·Р»РёС‡РЅС‹Рµ РјРѕРґРёС„РёРєР°С‚РѕСЂС‹ СЃРѕСЃС‚РѕСЏРЅРёСЏ, СЂР°СЃСЃРјРѕС‚СЂРёРј СЃР»РµРґ distinct, sorted, parallel, sequential:");
         List<String> srt = asList("a", "b", "c", "d", "a", "c");
         srt.stream()
                 .distinct()
                 .forEach(i -> System.out.println(i));
-        // distinct - находит и возвращает только уникальные значения, остальные он отбрасывает
-        // если использвовать его для класса, где нет реализван EQUAL то сравниваться значения не будут
+        // distinct - РЅР°С…РѕРґРёС‚ Рё РІРѕР·РІСЂР°С‰Р°РµС‚ С‚РѕР»СЊРєРѕ СѓРЅРёРєР°Р»СЊРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ, РѕСЃС‚Р°Р»СЊРЅС‹Рµ РѕРЅ РѕС‚Р±СЂР°СЃС‹РІР°РµС‚
+        // РµСЃР»Рё РёСЃРїРѕР»СЊР·РІРѕРІР°С‚СЊ РµРіРѕ РґР»СЏ РєР»Р°СЃСЃР°, РіРґРµ РЅРµС‚ СЂРµР°Р»РёР·РІР°РЅ EQUAL С‚Рѕ СЃСЂР°РІРЅРёРІР°С‚СЊСЃСЏ Р·РЅР°С‡РµРЅРёСЏ РЅРµ Р±СѓРґСѓС‚
 
-        System.out.println("Сортировка по имени в обратном порядке, sorted:");
+        System.out.println("РЎРѕСЂС‚РёСЂРѕРІРєР° РїРѕ РёРјРµРЅРё РІ РѕР±СЂР°С‚РЅРѕРј РїРѕСЂСЏРґРєРµ, sorted:");
         listCar.stream()
                 .sorted(Comparator.comparing(CarForStreamApi::getName).reversed())
                 .forEach(i -> System.out.println(i.getName()));
-
+        System.out.println();
     }
 }
