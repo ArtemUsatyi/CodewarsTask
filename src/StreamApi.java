@@ -1,7 +1,6 @@
+import javax.swing.*;
 import java.util.*;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import java.util.stream.*;
 
 import static java.util.Arrays.asList;
 
@@ -241,5 +240,77 @@ public class StreamApi {
         str.stream()
                 .skip(2)
                 .forEach(elem -> System.out.println("Прописутить 2 элемента, остальное вывести - " + elem));
+
+        System.out.println("-----------");
+        System.out.println("Generics Stream INT, LONG, DOUBLE (IntStream, LongStream, DoubleStream)");
+        IntStream intStream = IntStream.of(1, 2, 3, 4, 5);
+        LongStream longStream = LongStream.of(6, 7, 8, 9, 10);
+        DoubleStream doubleStream = DoubleStream.of(1.1, 2.2, 3.3, 4.4);
+
+        System.out.println("IntStream, LongStream - при использовании метода range()(происходит создание элементов в диапазоне (1,10)) " +
+                " в DoubleStream НЕЛЬЗЯ использовать метод range()");
+        IntStream intStreamRange = IntStream.range(1, 10); // от 1 до 99
+        intStreamRange.filter(elem -> elem % 2 == 0).forEach(i -> System.out.println(i));
+
+        LongStream longStreamRang = LongStream.rangeClosed(1, 10); // от 1 до 10 ДИАПАЗОН ТЕПЕРЬ ВКЛ. ПОСЛЕДНИЙ ЭЛЕМЕНТ
+
+        // IntStream можно преобразовать в LongStream, либо в DoubleStream. LongStream только в DoubleStream.
+        // DoubleStream назад не преобразовывается.
+
+        int[] ints = intStream.toArray(); // преобразования STREAM в массив
+
+        for (int i : ints) {
+            System.out.println(i);
+        }
+
+        int intSumStream = IntStream.of(1, 2, 3, 4, 5).sum(); // метод SUM() можно применять с методом of() только IntStream
+        System.out.println("сумма все элементов в потоке - " + intSumStream);
+
+        OptionalDouble averageStream = LongStream.of(1, 2, 3, 4, 5).average();// метод AVERAGE() вычисляет среднее значение OptionalDouble
+        System.out.println("Среднее число с помощью метода average()" + averageStream);
+
+        System.out.println("-----------");
+        System.out.println("Optional::::::");
+        System.out.println("Optional basics:");
+        Optional<String> nameOptional1 = Optional.of("optional"); //Optional.of(null); ---> java.lang.NullPointerException, пустую строку можно ""
+        System.out.println("Optional: " + nameOptional1);
+
+
+        System.out.println("Optional.ofNullable:");
+        Optional<String> nameOptional2 = Optional.ofNullable(null);
+        System.out.println("Null: " + nameOptional2); // выведит сообщение в консоли Optional.empty
+
+        System.out.println("Optional.empty:");
+        Optional<String> nameOptional3 = Optional.empty();
+        System.out.println(nameOptional3); // выведит сообщение в консоли Optional.empty
+
+        System.out.println(nameOptional1.get());
+//      System.out.println(nameOptional2.get()); будет ошибка, если получать NULL из optional ( NoSuchElementException: No value present )
+
+        System.out.println("Optional isPresent:");
+        if (nameOptional1.isPresent()) System.out.println(nameOptional1.get());
+        nameOptional1.ifPresent(System.out::println);
+
+        if (nameOptional2.isPresent()) System.out.println(nameOptional2.get());
+        else System.out.println("Условие не выполнилось - nameOptional2 содержит NULL");
+
+        System.out.println("Optional orElse:");
+        System.out.println(nameOptional2.orElse("Пустота!!!! ")); // Если переменная будет NULL, выполнил действие в скобках
+
+        System.out.println("Optional orElseGet:");
+        System.out.println(nameOptional3.orElseGet(() -> "Пустота в другой переменной")); // Если переменная будет NULL, возвращает что в скобках и при этом в лямбда выражении
+
+        System.out.println("Optional orElseThrow:");
+//      System.out.println(nameOptional3.orElseThrow(()-> new ArithmeticException()));  Если переменная будет NULL, может пробросить любое исключение
+
+        System.out.println("Optional map :");
+        System.out.println(nameOptional1.map(String::toUpperCase).get());
+
+        System.out.println(nameOptional2.map(String::toUpperCase)); // Если переменная будет NULL,  выведит сообщение в консоли Optional.empty
+
+        System.out.println("Optional flatMap :");
+        Optional<Optional<String>> name = Optional.of(Optional.of("JOHN"));
+        Optional<String> lowerCaseName = name.flatMap(o -> o.map(String::toLowerCase));
+        System.out.println(lowerCaseName);  //output Optional[john]
     }
 }
