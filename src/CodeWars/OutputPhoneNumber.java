@@ -3,27 +3,25 @@ package CodeWars;
 import java.util.Arrays;
 
 public class OutputPhoneNumber {
+    static StringBuilder phoneNumber = new StringBuilder("(");
+
     public static void main(String[] args) {
         int[] arrayPhoneNumber = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
-        StringBuilder phoneNumber = new StringBuilder("(");
 
-        int countNumber = 3;
-        for (int element = 0; element < countNumber; element++) {
-            phoneNumber.append(arrayPhoneNumber[element]);
-        }
+        concatStringPhoneNumberOfArray(arrayPhoneNumber, 3, 0);
         phoneNumber.append(") ");
 
-        countNumber = 6;
-        for (int element = 3; element < countNumber; element++) {
-            phoneNumber.append(arrayPhoneNumber[element]);
-        }
+        concatStringPhoneNumberOfArray(arrayPhoneNumber, 6, 3);
         phoneNumber.append("-");
 
-        countNumber = arrayPhoneNumber.length;
-        for (int element = 6; element < countNumber; element++) {
-            phoneNumber.append(arrayPhoneNumber[element]);
-        }
+        concatStringPhoneNumberOfArray(arrayPhoneNumber, arrayPhoneNumber.length, 6);
 
         System.out.println(phoneNumber);
+    }
+
+    public static void concatStringPhoneNumberOfArray(int[] array, int mountFormatPhone, int valueElem) {
+        for (int element = valueElem; element < mountFormatPhone; element++) {
+            phoneNumber.append(array[element]);
+        }
     }
 }
