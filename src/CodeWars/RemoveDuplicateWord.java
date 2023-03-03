@@ -1,7 +1,5 @@
 package CodeWars;
 
-import java.util.Arrays;
-
 public class RemoveDuplicateWord {
     public static void main(String[] args) {
         String text = "alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta";
@@ -15,10 +13,6 @@ public class RemoveDuplicateWord {
                 modifiedText = modifiedText + " " + currentText;
             }
         }
-
-
         System.out.println(modifiedText.trim());
-
-
     }
 }
