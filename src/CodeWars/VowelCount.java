@@ -11,5 +11,7 @@ public class VowelCount {
                     .count();
         }
         System.out.println(count);
+//        альтернативный метод вычисления
+//        return str.replaceAll("(?i)[^aeiou]", "").length();
     }
 }
