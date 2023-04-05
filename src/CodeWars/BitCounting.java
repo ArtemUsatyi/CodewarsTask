@@ -6,7 +6,7 @@ public class BitCounting {
     public static void main(String[] args) {
         int number = 1234;
         System.out.println(Integer.toBinaryString(number));
-        int count = (int) stream(Integer.toBinaryString(number).split("")).mapToInt(Integer::parseInt).filter(i -> i == 1).count();
+        int count = (int) stream(Integer.toBinaryString(number).split("")).filter(i -> i.equals("1")).count();
         System.out.println(count);
 
         // Алтернативный вариант
