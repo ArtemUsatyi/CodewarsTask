@@ -11,7 +11,7 @@ public class DescendingOrder {
 
         List<Integer> listNumber = Arrays.stream(String.valueOf(number).split("")).map(Integer::valueOf)
                 .collect(Collectors.toList());
-        Collections.sort(listNumber, Collections.reverseOrder());
+        listNumber.sort(Collections.reverseOrder());
         System.out.println(Integer.parseInt(listNumber.stream().map(Object::toString)
                 .collect(Collectors.joining(""))));
 
