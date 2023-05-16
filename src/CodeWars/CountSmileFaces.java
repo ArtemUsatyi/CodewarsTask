@@ -1,6 +1,5 @@
 package CodeWars;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -18,6 +17,7 @@ public class CountSmileFaces {
             else if (elem.substring(0, 1).matches("[:;]") && elem.substring(1).matches("[)D]")) count++;
         }
         System.out.println(count);
-
+        // Алтернативная версия
+       // (int)arr.stream().filter( x -> x.matches("[:;][-~]?[)D]")).count();
     }
 }
