@@ -13,9 +13,9 @@ public class CountSmileFaces {
         // ÍÎÑ (םו גסודהא) - ~
         int count = 0;
         for (String elem : listSmileFaces) {
-            if (elem.substring(0, 1).matches("\\:|\\;") && elem.substring(1, 2).matches("\\-|\\~")
-                    && elem.substring(2).matches("\\)||D")) count++;
-            else if (elem.substring(0, 1).matches("\\:|\\;") && elem.substring(1).matches("\\)||D")) count++;
+            if (elem.substring(0, 1).matches("[:;]") && elem.substring(1, 2).matches("[-~]")
+                    && elem.substring(2).matches("[)D]")) count++;
+            else if (elem.substring(0, 1).matches("[:;]") && elem.substring(1).matches("[)D]")) count++;
         }
         System.out.println(count);
 
