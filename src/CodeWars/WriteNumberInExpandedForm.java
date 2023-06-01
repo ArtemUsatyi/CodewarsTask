@@ -2,7 +2,7 @@ package CodeWars;
 
 public class WriteNumberInExpandedForm {
     public static void main(String[] args) {
-        int number = 101;
+        int number = 1000;
         String array = String.valueOf(number);
         int count = array.length() - 1;
         String zero = "";
@@ -11,17 +11,18 @@ public class WriteNumberInExpandedForm {
             count--;
         }
         count = array.length() - 1;
-        StringBuilder text = new StringBuilder();
+        String text = "";
         for (String str : array.split("(?<=.)")) {
             if (str.equals("0")) {
-                if(!zero.isEmpty()) zero = zero.substring(1);
+                if (!zero.isEmpty()) zero = zero.substring(1);
                 count--;
                 continue;
+            } else {
+                if(!text.isEmpty()) text +=("+");
+                text +=(str);
             }
-            text.append(str);
             if (count > 0) {
-                text.append(zero);
-                text.append("+");
+                text +=(zero);
                 zero = zero.substring(1);
                 count--;
             }
