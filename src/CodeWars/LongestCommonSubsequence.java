@@ -4,8 +4,6 @@ public class LongestCommonSubsequence {
     public static void main(String[] args) {
         String text1 = "132535365";
         String text2 = "123456789";
-
-
         System.out.println(lcs(text1, text2));
     }
     public static String lcs(String text1, String text2) {
