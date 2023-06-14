@@ -2,9 +2,9 @@ package CodeWars;
 
 public class MergedStringChecker {
     public static void main(String[] args) {
-        String s = "!h*MH0gfr8ZTB*=MFcrT$t!h*MH0gfr8t- wo+ry]S&zJR*/:H^SQNx0R%.DMGYXQ";
-        String part2 = "!h*MH0gfr8t- wo+ry]S&zJR";
-        String part1 = "!h*MH0gfr8ZTB*=MFcrT$t*/:H^SQNx0R%.DMGYXQ";
+        String s = "codewars";
+        String part2 = "code";
+        String part1 = "wars";
         String text = "";
 
         for (String elem : s.split("")) {
