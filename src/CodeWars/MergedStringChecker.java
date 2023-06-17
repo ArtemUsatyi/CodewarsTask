@@ -2,9 +2,9 @@ package CodeWars;
 
 public class MergedStringChecker {
     public static void main(String[] args) {
-        String s = "codewars";
-        String part2 = "code";
-        String part1 = "wars";
+        String s = "+]Ekbb)3Y%.>i/l>>Su[,E.I'+k";
+        String part1 = "bb3>i/l[,I+k";
+        String part2 = "+]Ek)Y%.>>SuE.'";
         String text = "";
 
         for (String elem : s.split("")) {
@@ -29,7 +29,5 @@ public class MergedStringChecker {
         }
         if (s.equals(text)) System.out.println("хорошо");
         else System.out.println("Плохо");
-        System.out.println(s);
-        System.out.println(text);
     }
 }
