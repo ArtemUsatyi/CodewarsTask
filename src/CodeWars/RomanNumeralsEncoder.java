@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class RomanNumeralsEncoder {
     public static void main(String[] args) {
-        int number = 1000;
+        int number = 2023;
         ArrayList<String> listArabic = new ArrayList<>(List.of("0", "1", "2", "3", "4", "5", "6", "7", "8", "9",
                 "10", "20", "30", "40", "50", "60", "70", "80", "90",
                 "100", "200", "300", "400", "500", "600", "700", "800", "900",
@@ -39,7 +39,7 @@ public class RomanNumeralsEncoder {
         }
         System.out.println(text.toString());
     }
-//    Алтернативный вариант
+//    РђР»С‚РµСЂРЅР°С‚РёРІРЅС‹Р№ РІР°СЂРёР°РЅС‚
 //    static final String R1000[] = {"", "M", "MM", "MMM" };
 //    return R1000[n/1000]+R100[n%1000/100]+R10[n%100/10]+R1[n%10];
 }

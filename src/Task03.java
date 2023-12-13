@@ -44,6 +44,5 @@ public class Task03 {
                 case 'M' -> 1000;
                 default -> 0;
             };
-
         }
 }

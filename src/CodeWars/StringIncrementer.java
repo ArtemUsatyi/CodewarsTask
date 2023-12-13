@@ -22,7 +22,7 @@ public class StringIncrementer {
                 if (arraysList.get(1).length() > count.length()) count = "0" + count;
                 else break;
             }
-            arraysList.set(1, String.valueOf(count));
+            arraysList.set(1, count);
             System.out.println(arraysList.get(0) + arraysList.get(1));
         }
     }

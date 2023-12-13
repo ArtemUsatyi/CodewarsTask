@@ -17,7 +17,7 @@ public class PairOfGloves {
                 glovesList.remove(glove);
                 i = 0;
             } else if (glovesList.size() == i) {
-                glovesList.remove(i - 1);
+                glovesList.remove(glove);
             }
         }
         System.out.println(countGloves);

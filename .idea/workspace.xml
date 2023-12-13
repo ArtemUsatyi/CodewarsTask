@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad1fe5bb-27c1-4d94-abb9-08a26f02055e" name="Changes" comment="методы String">
+    <list default="true" id="ad1fe5bb-27c1-4d94-abb9-08a26f02055e" name="Changes" comment="Найти самый длинный префикс или вернуть пустую строку">
+      <change afterPath="$PROJECT_DIR$/src/CodeWars/FindMissingTeamArithmeticProgress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeWars/ParentsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeWars/RemoveEveryoneThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeWars/isNullClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Random.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Task.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/CountSmileFaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/CountSmileFaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/DecodeTheMorseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/DecodeTheMorseCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/DescendingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/DescendingOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/FindUniqueNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/FindUniqueNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/FormatWordsIntoSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/FormatWordsIntoSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/ListFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/ListFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/ListMapPageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/ListMapPageRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/LongestPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/LongestPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/PairOfGloves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/PairOfGloves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/PlusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/RomanNumeralsEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/RomanNumeralsEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/StringIncrementer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/StringIncrementer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/SuperProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/CheckClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/TribonacсiSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/TribonacсiSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/WhichAreIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/WhichAreIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/returnString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/ReturnString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Task03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,6 +64,19 @@
     </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d19dcc24-f6f1-418d-a950-67b47c2e8d04" />
+        <option name="url" value="git@github.com:artemowork/homework.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -44,41 +86,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Artemo/Documents/Task&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
+    ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Task11">
-    <configuration name="Task03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task03" />
+}</component>
+  <component name="RunManager" selected="Application.StringArrayDuplicates">
+    <configuration name="CuckooClock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWars.CuckooClock" />
       <module name="Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task04" />
+    <configuration name="PrefixLeetcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWars.PrefixLeetcode" />
       <module name="Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task07" />
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWars.ReverseArray" />
       <module name="Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task08" />
+    <configuration name="StringArrayDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWars.StringArrayDuplicates" />
       <module name="Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,20 +168,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task11" />
+    <configuration name="prefixTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWars.prefixTest" />
       <module name="Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task11" />
-        <item itemvalue="Application.Task04" />
-        <item itemvalue="Application.Task03" />
-        <item itemvalue="Application.Task08" />
-        <item itemvalue="Application.Task07" />
+        <item itemvalue="Application.StringArrayDuplicates" />
+        <item itemvalue="Application.ReverseArray" />
+        <item itemvalue="Application.CuckooClock" />
+        <item itemvalue="Application.prefixTest" />
+        <item itemvalue="Application.PrefixLeetcode" />
       </list>
     </recent_temporary>
   </component>
@@ -115,107 +199,430 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655029772752</updated>
+      <workItem from="1681127307762" duration="1410000" />
+      <workItem from="1681136789665" duration="994000" />
+      <workItem from="1681206283020" duration="605000" />
+      <workItem from="1681281990636" duration="41000" />
+      <workItem from="1681297115667" duration="3542000" />
+      <workItem from="1681311244153" duration="125000" />
+      <workItem from="1681405358885" duration="7519000" />
+      <workItem from="1681542646779" duration="23000" />
+      <workItem from="1681563240421" duration="4908000" />
+      <workItem from="1681669333345" duration="37000" />
+      <workItem from="1681669376946" duration="719000" />
+      <workItem from="1681751304870" duration="8553000" />
+      <workItem from="1681835982521" duration="6805000" />
+      <workItem from="1681928129036" duration="3000" />
+      <workItem from="1682422353794" duration="8648000" />
+      <workItem from="1682610095933" duration="13000" />
+      <workItem from="1682697582761" duration="760000" />
+      <workItem from="1682708189654" duration="623000" />
+      <workItem from="1682835346891" duration="32000" />
+      <workItem from="1682849690303" duration="8586000" />
+      <workItem from="1683015124781" duration="121000" />
+      <workItem from="1683042086568" duration="13898000" />
+      <workItem from="1683272817671" duration="29000" />
+      <workItem from="1683400806392" duration="5259000" />
+      <workItem from="1683454908778" duration="6479000" />
+      <workItem from="1683477550295" duration="1370000" />
+      <workItem from="1683543939473" duration="5100000" />
+      <workItem from="1683559588146" duration="3398000" />
+      <workItem from="1683714746466" duration="1620000" />
+      <workItem from="1683808380378" duration="13000" />
+      <workItem from="1684147683107" duration="7004000" />
+      <workItem from="1684236632242" duration="3442000" />
+      <workItem from="1684248562295" duration="303000" />
+      <workItem from="1684249246185" duration="561000" />
+      <workItem from="1684250071002" duration="27000" />
+      <workItem from="1684257439139" duration="1407000" />
+      <workItem from="1684314204580" duration="253000" />
+      <workItem from="1684500904817" duration="5345000" />
+      <workItem from="1684669314334" duration="398000" />
+      <workItem from="1684699976761" duration="2885000" />
+      <workItem from="1684836865290" duration="8000" />
+      <workItem from="1684845586698" duration="3006000" />
+      <workItem from="1685009255271" duration="28000" />
+      <workItem from="1685037693946" duration="6489000" />
+      <workItem from="1685189092178" duration="3349000" />
+      <workItem from="1685559730330" duration="11000" />
+      <workItem from="1685559753594" duration="7895000" />
+      <workItem from="1685617063121" duration="606000" />
+      <workItem from="1685626411320" duration="7975000" />
+      <workItem from="1685716883468" duration="3547000" />
+      <workItem from="1686251741610" duration="1455000" />
+      <workItem from="1686394984705" duration="9221000" />
+      <workItem from="1686563965059" duration="2285000" />
+      <workItem from="1686677852228" duration="7646000" />
+      <workItem from="1686751504289" duration="11536000" />
+      <workItem from="1686857597393" duration="5050000" />
+      <workItem from="1686914025980" duration="7221000" />
+      <workItem from="1687028308348" duration="431000" />
+      <workItem from="1687075437260" duration="49000" />
+      <workItem from="1687085645587" duration="188000" />
+      <workItem from="1687086295131" duration="21000" />
+      <workItem from="1689691325749" duration="4775000" />
+      <workItem from="1689696762808" duration="636000" />
+      <workItem from="1696683992879" duration="2028000" />
+      <workItem from="1696688230465" duration="1744000" />
+      <workItem from="1698316269996" duration="4087000" />
+      <workItem from="1698320498346" duration="5180000" />
+      <workItem from="1698485047944" duration="11000" />
+      <workItem from="1698666321866" duration="3845000" />
+      <workItem from="1699014368268" duration="654000" />
+      <workItem from="1699533547567" duration="1270000" />
+      <workItem from="1699697626531" duration="1000" />
+      <workItem from="1700386435369" duration="850000" />
+      <workItem from="1702280812119" duration="7663000" />
+      <workItem from="1702474513064" duration="4233000" />
     </task>
-    <task id="LOCAL-00001" summary="Настройка">
-      <created>1655034100003</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00088" summary="Сodewars - Конвертировать из Арабских чисел в диапазоне [0-3999] в Римские цифры">
+      <created>1683050197704</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
       <option name="project" value="LOCAL" />
-      <updated>1655034100003</updated>
+      <updated>1683050197704</updated>
     </task>
-    <task id="LOCAL-00002" summary="Программа сумм из 2-х чисел в массиве">
-      <created>1655034241755</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+    <task id="LOCAL-00089" summary="Сodewars - инкрементировать строку, если в конце имеется число добавить к числу значение. При этом сохранить нули впереди. Разделение строки работает в диапазоне a-zA-Z и символы">
+      <created>1683056012789</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
       <option name="project" value="LOCAL" />
-      <updated>1655034241755</updated>
+      <updated>1683056012789</updated>
     </task>
-    <task id="LOCAL-00003" summary="Проверка палиндрома">
-      <created>1655040982490</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+    <task id="LOCAL-00090" summary="Сodewars - true если часть str1символов можно переставить, чтобы они соответствовали str2, иначе возвращает false">
+      <created>1683403570135</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
       <option name="project" value="LOCAL" />
-      <updated>1655040982490</updated>
+      <updated>1683403570135</updated>
     </task>
-    <task id="LOCAL-00004" summary="Количество уникальный чисел в массиве">
-      <created>1655063686561</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+    <task id="LOCAL-00091" summary="Сodewars - отфильтровать список Object чтобы были числа">
+      <created>1683405863757</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
       <option name="project" value="LOCAL" />
-      <updated>1655063686561</updated>
+      <updated>1683405863758</updated>
     </task>
-    <task id="LOCAL-00005" summary="Количество уникальный чисел в массиве - мой вариант">
-      <created>1655063884711</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+    <task id="LOCAL-00092" summary="Сodewars - отфильтровать список Object чтобы были числа">
+      <created>1683405952474</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
       <option name="project" value="LOCAL" />
-      <updated>1655063884711</updated>
+      <updated>1683405952474</updated>
     </task>
-    <task id="LOCAL-00006" summary="Вычислить самый длинный префикс из 3-х чисел">
-      <created>1655566861156</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+    <task id="LOCAL-00093" summary="Сodewars - простой синтаксический анализатор, у кторой есть 4 команды.&#10;i увеличивает значение (изначально 0)&#10;d уменьшает значение&#10;s возводит значение в квадрат&#10;o выводит значение в возвращаемый массив">
+      <created>1683458975019</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
       <option name="project" value="LOCAL" />
-      <updated>1655566861156</updated>
+      <updated>1683458975019</updated>
     </task>
-    <task id="LOCAL-00007" summary="Конвертер Римского числа в Арабское число">
-      <created>1655578584584</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+    <task id="LOCAL-00094" summary="Сodewars - посчитать количество войск Добра и Зла и определить кто победит. Если кол-во одинаковое вернуть НИЧЬЯ">
+      <created>1683461797626</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
       <option name="project" value="LOCAL" />
-      <updated>1655578584584</updated>
+      <updated>1683461797626</updated>
     </task>
-    <task id="LOCAL-00008" summary="Вывести длину последнего слова.">
-      <created>1655838054129</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
+    <task id="LOCAL-00095" summary="Сodewars - посчитать количество войск Добра и Зла и определить кто победит. Если кол-во одинаковое вернуть НИЧЬЯ">
+      <created>1683461824493</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
       <option name="project" value="LOCAL" />
-      <updated>1655838054129</updated>
+      <updated>1683461824493</updated>
     </task>
-    <task id="LOCAL-00009" summary="Вывести длину последнего слова.">
-      <created>1655838554676</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
+    <task id="LOCAL-00096" summary="Сodewars -посчитать количество Букв в строке и вывсети результат в MAP&lt;Character, Integer&gt;">
+      <created>1683561964810</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
       <option name="project" value="LOCAL" />
-      <updated>1655838554676</updated>
+      <updated>1683561964810</updated>
     </task>
-    <task id="LOCAL-00010" summary="Проверка">
-      <created>1656012233864</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+    <task id="LOCAL-00097" summary="Сodewars - взять число из массива А возвести его в квадрат и найти в массиве B, в случае есть хоть одно число будет не найдено вернуть False, иначе True. Количество чисел в массиве B должно совпадать с кол-вом массива А">
+      <created>1683562188269</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
       <option name="project" value="LOCAL" />
-      <updated>1656012233864</updated>
+      <updated>1683562188269</updated>
     </task>
-    <task id="LOCAL-00011" summary="Проверка для отправки">
-      <created>1656012248386</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
+    <task id="LOCAL-00098" summary="Сodewars - найти все числа в интервале от a до b, которые раскладывают на 89=8^1+9^2">
+      <created>1683562312309</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
       <option name="project" value="LOCAL" />
-      <updated>1656012248386</updated>
+      <updated>1683562312309</updated>
     </task>
-    <task id="LOCAL-00012" summary="Проверка для отправки">
-      <created>1656245098825</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
+    <task id="LOCAL-00099" summary="Сodewars - есть массив и надо вернуть массив сумм его частей, как определено:&#10;newArray = [0, 1, 3, 6, 10]&#10;newArray = [1, 3, 6, 10]&#10;newArray = [3, 6, 10]&#10;newArray = [6, 10]&#10;newArray = [10]&#10;newArray = []&#10;Исходный массив : {0, 1, 3, 6, 10}&#10;Вернуть массив : [20, 20, 19, 16, 10, 0]">
+      <created>1683716254420</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
       <option name="project" value="LOCAL" />
-      <updated>1656245098825</updated>
+      <updated>1683716254420</updated>
     </task>
-    <task id="LOCAL-00013" summary="латиница проверка">
-      <created>1656246111969</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
+    <task id="LOCAL-00100" summary="Сodewars - есть массив и надо вернуть массив сумм его частей, как определено:&#10;newArray = [0, 1, 3, 6, 10]&#10;newArray = [1, 3, 6, 10]&#10;newArray = [3, 6, 10]&#10;newArray = [6, 10]&#10;newArray = [10]&#10;newArray = []&#10;Исходный массив : в списке должно быть определенное количество повторений цифр">
+      <created>1684157120808</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
       <option name="project" value="LOCAL" />
-      <updated>1656246111970</updated>
+      <updated>1684157120808</updated>
     </task>
-    <task id="LOCAL-00014" summary="методы String">
-      <created>1657019651658</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
+    <task id="LOCAL-00101" summary="Сodewars - найти в массиве цифру, где сумма их должна быть нечетной">
+      <created>1684157214339</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
       <option name="project" value="LOCAL" />
-      <updated>1657019651658</updated>
+      <updated>1684157214339</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00102" summary="Сodewars - вернуть массив, где количество повторений ограничено лимитом">
+      <created>1684157298177</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1684157298177</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Сodewars - посчитать в массиве количество символов. ОБЯЗАТЕЛЬНО учитывать ГЛАЗА : ; РОТ ) D НОС (не всегда) - ~. Другие символы игнорировать.">
+      <created>1684239297979</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1684239297979</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Сodewars - ИСПРАВЛЕНЫ Регулярные выражения. Посчитать в массиве количество символов. ОБЯЗАТЕЛЬНО учитывать ГЛАЗА : ; РОТ ) D НОС (не всегда) - ~. Другие символы игнорировать.">
+      <created>1684239401847</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1684239401847</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Сodewars - альтернативная версия">
+      <created>1684269773832</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1684269773832</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Сodewars - зашифровать код. Первая буквы в виде кодировки ASCII.&#10;Вторую и последную вукву поменять местами">
+      <created>1684504558587</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1684504558587</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Сodewars - определить в ПОДГРУППЕ Согласных букв МАКС. значение.&#10;&#10;Пример: слово - &quot;zodiacs&quot; : z = 26, d = 4 cs = 3 + 19 = 22, return 26">
+      <created>1684702175501</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1684702175502</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Сodewars - Сортировать список имен и фамилий по алфавиты и поменять местами Фамилию и Имя">
+      <created>1684853148095</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1684853148096</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Сodewars - Сортировать список имен и фамилий по алфавиты и поменять местами Фамилию и Имя.&#10;АЛЬТЕРНАТИВНАЯ ВЕРСИЯ">
+      <created>1685038223262</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1685038223262</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Сodewars - «Правило делимости — это сокращенный способ определения, делится ли заданное целое число на фиксированный делитель без выполнения деления, обычно путем проверки его цифр».">
+      <created>1685046480411</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1685046480411</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Сodewars - Валидность номера телефона.&#10;&quot;(123) 456-7890&quot; --- true.&#10;Другие варианты false">
+      <created>1685189523673</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1685189523673</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Сodewars - Валидность номера телефона.&#10;&quot;(123) 456-7890&quot; --- true.&#10;Другие варианты false">
+      <created>1685189595561</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1685189595561</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Сodewars - Дан массив целых чисел и целое число target, вернуть индексы двух чисел так, чтобы они в сумме составляли target.">
+      <created>1685192735050</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1685192735050</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Сodewars - Палиндром через StringBuilder.reverse()">
+      <created>1685561583896</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1685561583896</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Сodewars - Определить валидность скобок в строке">
+      <created>1685628156547</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1685628156547</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Сodewars - удалить дубликаты из массива и посчитать уникальные коэффициенты">
+      <created>1685628708107</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1685628708107</updated>
+    </task>
+    <task id="LOCAL-00117" summary="Сodewars - удалить коэффициент из массива и посчитать сумму оставшихся элементов">
+      <created>1685629682046</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1685629682046</updated>
+    </task>
+    <task id="LOCAL-00118" summary="Сodewars - исправлена ошибка вывода цифры 90000">
+      <created>1685642974867</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1685642974867</updated>
+    </task>
+    <task id="LOCAL-00119" summary="Сodewars - в массиве найти место нахождения в массиве, если число не найдено определить где оно может быть в массиве">
+      <created>1685739094251</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1685739094251</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Сodewars - найти длину последнего слова в строке">
+      <created>1686252594076</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1686252594076</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Сodewars - в огромное число состоящее из массива добавить единицу и получить результат в массиве.">
+      <created>1686399713308</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1686399713308</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Сodewars - Сложить бинарные числа">
+      <created>1686400970477</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1686400970477</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Сodewars - Вы поднимаетесь по лестнице. Требуется n несколько шагов, чтобы достичь вершины.">
+      <created>1686405214384</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1686405214384</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Сodewars - Merge (объединить) Array1 и Array2 и вывести результат в Array1.">
+      <created>1686566238840</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1686566238840</updated>
+    </task>
+    <task id="LOCAL-00125" summary="Сodewars - удалить дубликаты в List">
+      <created>1686566259464</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1686566259464</updated>
+    </task>
+    <task id="LOCAL-00126" summary="Сodewars - Иосиф Флавий, в круг становятся бойцы и выбирается число, на кого попадает число тот выбывает и так до конца">
+      <created>1686683945956</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1686683945956</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Сodewars - конвертировать из Шестнадцатиричного формата HEX в RGB">
+      <created>1686685158896</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1686685158896</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Сodewars - Среднеквадратичная ошибка">
+      <created>1686752594990</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1686752594990</updated>
+    </task>
+    <task id="LOCAL-00129" summary="Сodewars - Объединенная проверка строк">
+      <created>1686759066588</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1686759066588</updated>
+    </task>
+    <task id="LOCAL-00130" summary="Сodewars - Объединенная проверка строк">
+      <created>1686759121227</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1686759121227</updated>
+    </task>
+    <task id="LOCAL-00131" summary="Сodewars - (LCS) Самая длинная общая подпоследовательность - решение через рекурсию">
+      <created>1686770475200</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1686770475200</updated>
+    </task>
+    <task id="LOCAL-00132" summary="Сodewars - (LCS) Самая длинная общая подпоследовательность - решение через рекурсию">
+      <created>1686770504421</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1686770504421</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Сodewars - Найти самый длинный префикс из массива">
+      <created>1686861845301</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1686861845301</updated>
+    </task>
+    <task id="LOCAL-00134" summary="Сodewars - Найти в числе 98761 минимальное значение и переместить его в такое значение, чтобы число стало минимальным">
+      <created>1686921127651</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1686921127651</updated>
+    </task>
+    <task id="LOCAL-00135" summary="Сodewars - убраны выводы в консоли">
+      <created>1687028419177</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1687028419177</updated>
+    </task>
+    <task id="LOCAL-00136" summary="Сodewars - разбить List на группы, сделано специально для пагинации, через Map&lt;Integer, List&lt;Song&gt;&gt;.">
+      <created>1689693968750</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1689693968750</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -241,18 +648,36 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Настройка" />
-    <MESSAGE value="Программа сумм из 2-х чисел в массиве" />
-    <MESSAGE value="Проверка палиндрома" />
-    <MESSAGE value="Количество уникальный чисел в массиве" />
-    <MESSAGE value="Количество уникальный чисел в массиве - мой вариант" />
-    <MESSAGE value="Вычислить самый длинный префикс из 3-х чисел" />
-    <MESSAGE value="Конвертер Римского числа в Арабское число" />
-    <MESSAGE value="Вывести длину последнего слова." />
-    <MESSAGE value="Проверка" />
-    <MESSAGE value="Проверка для отправки" />
-    <MESSAGE value="латиница проверка" />
-    <MESSAGE value="методы String" />
-    <option name="LAST_COMMIT_MESSAGE" value="методы String" />
+    <MESSAGE value="Сodewars - исправлена ошибка вывода цифры 90000" />
+    <MESSAGE value="Сodewars - в массиве найти место нахождения в массиве, если число не найдено определить где оно может быть в массиве" />
+    <MESSAGE value="Сodewars - найти длину последнего слова в строке" />
+    <MESSAGE value="Сodewars - в огромное число состоящее из массива добавить единицу и получить результат в массиве." />
+    <MESSAGE value="Сodewars - Сложить бинарные числа" />
+    <MESSAGE value="Сodewars - Вы поднимаетесь по лестнице. Требуется n несколько шагов, чтобы достичь вершины." />
+    <MESSAGE value="Сodewars - Merge (объединить) Array1 и Array2 и вывести результат в Array1." />
+    <MESSAGE value="Сodewars - удалить дубликаты в List" />
+    <MESSAGE value="Сodewars - Иосиф Флавий, в круг становятся бойцы и выбирается число, на кого попадает число тот выбывает и так до конца" />
+    <MESSAGE value="Сodewars - конвертировать из Шестнадцатиричного формата HEX в RGB" />
+    <MESSAGE value="Сodewars - Среднеквадратичная ошибка" />
+    <MESSAGE value="Сodewars - Объединенная проверка строк" />
+    <MESSAGE value="Сodewars - (LCS) Самая длинная общая подпоследовательность - решение через рекурсию" />
+    <MESSAGE value="Сodewars - Найти самый длинный префикс из массива" />
+    <MESSAGE value="Сodewars - Найти в числе 98761 минимальное значение и переместить его в такое значение, чтобы число стало минимальным" />
+    <MESSAGE value="Сodewars - убраны выводы в консоли" />
+    <MESSAGE value="Сodewars - разбить List на группы, сделано специально для пагинации, через Map&lt;Integer, List&lt;Song&gt;&gt;." />
+    <MESSAGE value="Проверка Строки на число регулярным выражением" />
+    <MESSAGE value="Найти коэффициент из числа" />
+    <MESSAGE value="Переконвертировать время в секунда в числовом формате, в обычные человеческие часы.&#10;пример 5=секунд, время 00:00:05" />
+    <MESSAGE value="Есть два массива А и В, необходимо подобрать элемент из А возвести его в квадрат и сравнить есть ли в массиве B. При этом количество элементов А, должно соответствовать количеству массива В" />
+    <MESSAGE value="Найти самый длинный префикс или вернуть пустую строку" />
+    <MESSAGE value="Сделать реверс целого числа Integer, если число выйдет из диапазона вернуть ноль" />
+    <MESSAGE value="Преобразовать массив наоборот (1, 2, 3 - &gt; 3, 2, 1)" />
+    <MESSAGE value="Дан массив строк, в строке удалить повторяющие рядом буквы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Дан массив строк, в строке удалить повторяющие рядом буквы" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Task02_java$WriteNumberInExpandedForm.ic" NAME="WriteNumberInExpandedForm Coverage Results" MODIFIED="1685641063560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>CodeWars.*</FILTER>
+    </SUITE>
   </component>
 </project>

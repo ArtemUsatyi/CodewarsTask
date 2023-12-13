@@ -1,7 +1,7 @@
 package CodeWars;
 
-public class SuperProject {
+public class CheckClass {
     public static void main(String[] args) {
-        System.out.println("Super!!!");
+
     }
 }

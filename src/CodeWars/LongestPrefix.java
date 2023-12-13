@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class LongestPrefix {
     public static void main(String[] args) {
-        String[] strs = {"flower", "flo", "floght", "flog"};
+        String[] strs = {"flogwer", "flog", "floght", "flog", "f"};
         int prefix = 0;
         String shortest = Arrays.stream(strs).min((e2, e1) -> e1.length() > e2.length() ? -1 : 1).get();
         boolean flag = false;

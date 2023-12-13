@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class FormatWordsIntoSentence {
     public static void main(String[] args) {
-        String[] arrayWords = {"ronin", "samurai", "",  "ninja", null}; // System.out: ronin, samurai and ninja
+        String[] arrayWords = {"ronin", "samurai", "", null}; // System.out: ronin, samurai and ninja
         ArrayList<String> listWords = new ArrayList<>(Arrays.asList(arrayWords));
         listWords.removeAll(Arrays.asList("", null));
 

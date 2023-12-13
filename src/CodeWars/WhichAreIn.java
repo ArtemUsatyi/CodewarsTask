@@ -1,11 +1,10 @@
 package CodeWars;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class WhichAreIn {
     public static void main(String[] args) {
-        String[] array1 = {"arm"};
+        String[] array1 = {"livel", "aliv", "ha"};
         String[] array2 = {"lively", "alive", "harp", "sharp", "armstrong"};
         ArrayList<String> list = new ArrayList<>();
 

@@ -1,6 +1,6 @@
 package CodeWars;
 
-public class returnString {
+public class ReturnString {
     public static void main(String[] args) {
         // в ћетод получаем имена в формате CamelCase, задача сделать первую букву «аглавную, остальные строчные
         String text = "artem";

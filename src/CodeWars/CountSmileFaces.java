@@ -12,9 +12,7 @@ public class CountSmileFaces {
         // НОС (не всегда) - ~
         int count = 0;
         for (String elem : listSmileFaces) {
-            if (elem.substring(0, 1).matches("[:;]") && elem.substring(1, 2).matches("[-~]")
-                    && elem.substring(2).matches("[)D]")) count++;
-            else if (elem.substring(0, 1).matches("[:;]") && elem.substring(1).matches("[)D]")) count++;
+            if (elem.matches("[:;][-~]?[)D]")) count++;
         }
         System.out.println(count);
         // Алтернативная версия

@@ -5,6 +5,9 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Person person = new Person();
+        person.method2();
+
         String[] arrayString = {"Java", ",", "I", "love", "You"};
 
         Integer[] arrayInt = {1, 2, 3, 4, 5};

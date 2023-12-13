@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class TribonacсiSequence {
     public static void main(String[] args) {
-        int[] arrayTribonacci = {3, 14, 15};
+        int[] arrayTribonacci = {1, 1, 2};
         int amountNumberArray = 10;
         List<Integer> listTribonacci = Arrays.stream(arrayTribonacci).boxed().collect(Collectors.toList());
 
