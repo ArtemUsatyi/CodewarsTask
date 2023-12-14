@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad1fe5bb-27c1-4d94-abb9-08a26f02055e" name="Changes" comment="Найти самый длинный префикс или вернуть пустую строку">
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/FindMissingTeamArithmeticProgress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/ParentsClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/RemoveEveryoneThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/isNullClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Random.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeWars/StreamPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Task.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/CountSmileFaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/CountSmileFaces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/DecodeTheMorseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/DecodeTheMorseCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/DescendingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/DescendingOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/FindUniqueNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/FindUniqueNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/FormatWordsIntoSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/FormatWordsIntoSentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/ListFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/ListFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/ListMapPageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/ListMapPageRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/LongestPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/LongestPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/PairOfGloves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/PairOfGloves.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/PlusOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/RomanNumeralsEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/RomanNumeralsEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/StringIncrementer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/StringIncrementer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/SuperProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/CheckClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/TribonacсiSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/TribonacсiSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/WhichAreIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/WhichAreIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/returnString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/ReturnString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/StringArrayDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/StringArrayDuplicates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +83,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.StringArrayDuplicates">
+  <component name="RunManager" selected="Application.StreamPractice">
     <configuration name="CuckooClock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeWars.CuckooClock" />
       <module name="Task" />
@@ -122,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrefixLeetcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWars.PrefixLeetcode" />
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWars.ReverseArray" />
       <module name="Task" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWars.ReverseArray" />
+    <configuration name="StreamPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWars.StreamPractice" />
       <module name="Task" />
       <extension name="coverage">
         <pattern>
@@ -183,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamPractice" />
         <item itemvalue="Application.StringArrayDuplicates" />
         <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.CuckooClock" />
         <item itemvalue="Application.prefixTest" />
-        <item itemvalue="Application.PrefixLeetcode" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +248,8 @@
       <workItem from="1699697626531" duration="1000" />
       <workItem from="1700386435369" duration="850000" />
       <workItem from="1702280812119" duration="7663000" />
-      <workItem from="1702474513064" duration="4233000" />
+      <workItem from="1702474513064" duration="4976000" />
+      <workItem from="1702560420491" duration="4533000" />
     </task>
     <task id="LOCAL-00088" summary="Сodewars - Конвертировать из Арабских чисел в диапазоне [0-3999] в Римские цифры">
       <created>1683050197704</created>
@@ -618,7 +594,7 @@
       <option name="project" value="LOCAL" />
       <updated>1689693968750</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -669,11 +645,11 @@
     <MESSAGE value="Найти коэффициент из числа" />
     <MESSAGE value="Переконвертировать время в секунда в числовом формате, в обычные человеческие часы.&#10;пример 5=секунд, время 00:00:05" />
     <MESSAGE value="Есть два массива А и В, необходимо подобрать элемент из А возвести его в квадрат и сравнить есть ли в массиве B. При этом количество элементов А, должно соответствовать количеству массива В" />
-    <MESSAGE value="Найти самый длинный префикс или вернуть пустую строку" />
     <MESSAGE value="Сделать реверс целого числа Integer, если число выйдет из диапазона вернуть ноль" />
     <MESSAGE value="Преобразовать массив наоборот (1, 2, 3 - &gt; 3, 2, 1)" />
     <MESSAGE value="Дан массив строк, в строке удалить повторяющие рядом буквы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Дан массив строк, в строке удалить повторяющие рядом буквы" />
+    <MESSAGE value="Найти самый длинный префикс или вернуть пустую строку" />
+    <option name="LAST_COMMIT_MESSAGE" value="Найти самый длинный префикс или вернуть пустую строку" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Task02_java$WriteNumberInExpandedForm.ic" NAME="WriteNumberInExpandedForm Coverage Results" MODIFIED="1685641063560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
