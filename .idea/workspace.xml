@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad1fe5bb-27c1-4d94-abb9-08a26f02055e" name="Changes" comment="Найти самый длинный префикс или вернуть пустую строку">
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/StreamPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeWars/LeetcodeRemoveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CodeWars/StringArrayDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/StringArrayDuplicates.java" afterDir="false" />
     </list>
@@ -83,9 +83,9 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.StreamPractice">
-    <configuration name="CuckooClock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWars.CuckooClock" />
+  <component name="RunManager" selected="Application.LeetcodeRemoveElement">
+    <configuration name="LeetcodeFindFirstIndexOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWars.LeetcodeFindFirstIndexOfString" />
       <module name="Task" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +97,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWars.ReverseArray" />
+    <configuration name="LeetcodeRemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWars.LeetcodeRemoveElement" />
+      <module name="Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PolybiusSquareCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWars.PolybiusSquareCipher" />
       <module name="Task" />
       <extension name="coverage">
         <pattern>
@@ -143,26 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="prefixTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWars.prefixTest" />
-      <module name="Task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeWars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetcodeRemoveElement" />
+        <item itemvalue="Application.LeetcodeFindFirstIndexOfString" />
+        <item itemvalue="Application.PolybiusSquareCipher" />
         <item itemvalue="Application.StreamPractice" />
         <item itemvalue="Application.StringArrayDuplicates" />
-        <item itemvalue="Application.ReverseArray" />
-        <item itemvalue="Application.CuckooClock" />
-        <item itemvalue="Application.prefixTest" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +249,13 @@
       <workItem from="1700386435369" duration="850000" />
       <workItem from="1702280812119" duration="7663000" />
       <workItem from="1702474513064" duration="4976000" />
-      <workItem from="1702560420491" duration="4533000" />
+      <workItem from="1702560420491" duration="4580000" />
+      <workItem from="1702717623819" duration="11000" />
+      <workItem from="1702722697443" duration="4000" />
+      <workItem from="1702729791317" duration="600000" />
+      <workItem from="1703097766003" duration="1000" />
+      <workItem from="1703154604517" duration="3801000" />
+      <workItem from="1703320877691" duration="1723000" />
     </task>
     <task id="LOCAL-00088" summary="Сodewars - Конвертировать из Арабских чисел в диапазоне [0-3999] в Римские цифры">
       <created>1683050197704</created>
@@ -594,7 +600,7 @@
       <option name="project" value="LOCAL" />
       <updated>1689693968750</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +630,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Сodewars - исправлена ошибка вывода цифры 90000" />
     <MESSAGE value="Сodewars - в массиве найти место нахождения в массиве, если число не найдено определить где оно может быть в массиве" />
     <MESSAGE value="Сodewars - найти длину последнего слова в строке" />
     <MESSAGE value="Сodewars - в огромное число состоящее из массива добавить единицу и получить результат в массиве." />
@@ -649,7 +654,8 @@
     <MESSAGE value="Преобразовать массив наоборот (1, 2, 3 - &gt; 3, 2, 1)" />
     <MESSAGE value="Дан массив строк, в строке удалить повторяющие рядом буквы" />
     <MESSAGE value="Найти самый длинный префикс или вернуть пустую строку" />
-    <option name="LAST_COMMIT_MESSAGE" value="Найти самый длинный префикс или вернуть пустую строку" />
+    <MESSAGE value="Stream API JAVA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream API JAVA" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Task02_java$WriteNumberInExpandedForm.ic" NAME="WriteNumberInExpandedForm Coverage Results" MODIFIED="1685641063560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
