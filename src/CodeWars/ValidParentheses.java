@@ -4,20 +4,19 @@ import java.util.*;
 
 public class ValidParentheses {
     public static void main(String[] args) {
-        Map<String, String> mapChar = new HashMap<>();
-        mapChar.put("(", ")");
-        mapChar.put("[", "]");
-        mapChar.put("{", "}");
-        String s = "(}";
-        LinkedList<String> test = new LinkedList<>();
-        // надо добавлять сначала строки, а потом их удалять с очереди 1->2->3 ; 1<-2<-3
+        String s = "({}[()])";
+        Stack<Character> stack = new Stack<>();
 
-        for (String elem : s.split("")) {
-            if (mapChar.containsKey(elem)) test.push(elem);
-            else if (mapChar.containsValue(elem)) {
-                if (test.isEmpty() || mapChar.get(test.get(0)).equals(elem)) test.pop();
-            }
+        for (char c : s.toCharArray()) {
+            if (c == '(')
+                stack.push(')');
+            else if (c == '{')
+                stack.push('}');
+            else if (c == '[')
+                stack.push(']');
+            else if (stack.isEmpty() || stack.pop() != c)
+                System.out.println("false");
         }
-        System.out.println(test.isEmpty() ? "Валидно" : "Не валидно");
+        System.out.println(stack.isEmpty());
     }
 }
