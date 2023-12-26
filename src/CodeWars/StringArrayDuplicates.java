@@ -10,7 +10,7 @@ public class StringArrayDuplicates {
             arr[i] = arr[i].replaceAll("([a-z])\\1+", "$1");
         }
         System.out.println(Arrays.toString(arr));
-        
+
 // Реализация через стрим
 // return Arrays.stream(arr).map(x->x.replaceAll("(.)(?=\\1)","")).toArray(String[]::new);
     }
