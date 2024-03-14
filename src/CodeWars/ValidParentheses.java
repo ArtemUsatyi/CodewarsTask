@@ -18,5 +18,6 @@ public class ValidParentheses {
                 System.out.println("false");
         }
         System.out.println(stack.isEmpty());
+
     }
 }
