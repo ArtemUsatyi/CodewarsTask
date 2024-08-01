@@ -5,7 +5,7 @@ import java.util.function.Consumer;
 public class Main {
     public static void main(String[] args) {
 
-        //принимает один аргумент, но ничего не возвращет, но производит какое-то действие.
+        //РїСЂРёРЅРёРјР°РµС‚ РѕРґРёРЅ Р°СЂРіСѓРјРµРЅС‚, РЅРѕ РЅРёС‡РµРіРѕ РЅРµ РІРѕР·РІСЂР°С‰РµС‚, РЅРѕ РїСЂРѕРёР·РІРѕРґРёС‚ РєР°РєРѕРµ-С‚Рѕ РґРµР№СЃС‚РІРёРµ.
         Consumer<String> test = (str) -> {
             if (str == null) System.out.println("Str is null");
             else if (str.equals("text")) System.out.println("Str is - " + str);
